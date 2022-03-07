@@ -1,0 +1,9 @@
+movieDB
+movie_id   title poster  Description release_date   runtime rating 
+
+actors
+movie_id  firstName lastName  role
+
+numbers
+movie_id budget
+

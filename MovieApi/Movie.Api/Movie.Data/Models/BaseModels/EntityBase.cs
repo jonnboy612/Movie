@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Recipe.Data.Models;
+namespace Movie.Data.Models;
 
 /// <summary>
 /// Defines an entity with an identifier.

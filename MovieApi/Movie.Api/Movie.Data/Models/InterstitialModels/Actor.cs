@@ -1,4 +1,4 @@
-namespace Movies.Data.Models;
+namespace Movie.Data.Models;
 
 public class Actor : Entity {
     public long MovieId { get; set; }

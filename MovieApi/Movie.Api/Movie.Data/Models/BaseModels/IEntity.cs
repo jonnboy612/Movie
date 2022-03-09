@@ -1,4 +1,4 @@
-namespace Recipe.Data.Models;
+namespace Movie.Data.Models;
 
 using System;
 

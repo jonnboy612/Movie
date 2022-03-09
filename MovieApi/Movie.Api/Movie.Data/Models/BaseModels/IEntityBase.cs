@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Recipe.Data.Models;
+namespace Movie.Data.Models;
 
 /// <summary>
 /// A base entity object model with an id.

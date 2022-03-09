@@ -1,4 +1,4 @@
-namespace Movies.Data.Models;
+namespace Movie.Data.Models;
 
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;

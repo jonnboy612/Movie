@@ -3,10 +3,10 @@ namespace Movie.Data.Models;
 using System.ComponentModel.DataAnnotations.Schema;
 
 [Table("actor")]
-public class StepDataModel : EntityDataModel
+public class ActorDataModel : EntityDataModel
 {
     [Column("movie_id")]
-    public long RecipeId { get; set; }
+    public long MovieId { get; set; }
 
     public string firstName { get; set; } = string.Empty;
 

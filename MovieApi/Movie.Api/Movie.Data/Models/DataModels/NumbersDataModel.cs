@@ -3,7 +3,7 @@ namespace Movie.Data.Models;
 using System.ComponentModel.DataAnnotations.Schema;
 
 [Table("numbers")]
-public class NumberDataModel : EntityDataModel
+public class NumbersDataModel : EntityDataModel
 {
     [Column("movie_id")]
     public long MovieId { get; set; }
@@ -12,7 +12,7 @@ public class NumberDataModel : EntityDataModel
 
     public int Runtime { get; set; }
 
-    public string Rating { get; set; }
+    public string Rating { get; set; } = string.Empty;
 
     /// <summary>
     /// 
